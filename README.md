@@ -206,3 +206,20 @@ All API traffic will be encrypted using HTTPS, and sensitive data (e.g., passwor
 
 **Why it's important**: Encryption ensures that data transmitted between clients and servers cannot be intercepted or altered by third parties.
 
+
+## CI/CD Pipeline
+
+CI/CD is a development practice that automates the process of integrating code changes, running tests, and deploying updates to production environments. CI/CD pipelines help ensure that every code change is verified and safely delivered with minimal manual intervention.
+
+### Why It’s Important
+
+CI/CD pipelines help maintain code quality, reduce deployment risks, and accelerate development cycles. For the Airbnb Clone project, CI/CD enables rapid updates, early bug detection, and consistent deployment processes—ensuring the backend remains stable and reliable as new features are added.
+
+### Recommended Tools
+
+* **GitHub Actions**: Automates testing, building, and deployment workflows directly within GitHub.
+* **Docker**: Provides consistent, containerized environments across development, testing, and production stages.
+* **pytest/Django test suite**: Runs automated tests for code validation.
+* **DigitalOcean**: For deploying and hosting the application.
+
+
