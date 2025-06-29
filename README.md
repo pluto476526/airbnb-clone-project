@@ -156,3 +156,53 @@ Provides structured, programmatic access to all core resources via RESTful endpo
 
 Implements caching and database indexing to enhance speed and efficiency. These optimizations are crucial for handling high-traffic scenarios and ensuring a smooth user experience.
 
+
+## API Security
+
+Ensuring the security of the Airbnb Clone backend is essential to protect user data, financial transactions, and platform integrity. The system will implement several key security measures to safeguard all operations.
+
+### Authentication
+
+Users must authenticate via secure methods such as token-based authentication (e.g., JWT). This ensures that only verified users can access protected endpoints, preventing unauthorized access.
+
+**Why it's important**: Authentication protects personal data and user accounts, ensuring that actions like booking or listing properties are performed by legitimate users.
+
+
+
+### Authorization
+
+Role-based access control (RBAC) will restrict actions based on user roles (e.g., guest, host, admin). Each endpoint will check permissions before allowing access to sensitive operations.
+
+**Why it's important**: Authorization ensures that users can only perform actions relevant to their role, such as preventing guests from modifying properties or accessing admin features.
+
+
+
+### Rate Limiting
+
+APIs will enforce rate limiting to prevent abuse and denial-of-service (DoS) attacks. This includes setting thresholds for login attempts, data requests, and booking submissions.
+
+**Why it's important**: Rate limiting protects the system from being overwhelmed by malicious traffic and helps maintain performance for all users.
+
+
+
+### Input Validation & Sanitization
+
+All input data will be validated and sanitized to prevent injection attacks (e.g., SQL injection, XSS).
+
+**Why it's important**: Validating inputs protects against common attack vectors that can compromise data integrity and platform stability.
+
+
+
+### Secure Payment Handling
+
+Payment endpoints will be protected with HTTPS, tokenized transactions, and integration with secure third-party payment processors.
+
+**Why it's important**: Securing payment flows is critical to prevent fraud, protect financial data, and maintain user trust.
+
+
+### HTTPS & Data Encryption
+
+All API traffic will be encrypted using HTTPS, and sensitive data (e.g., passwords) will be hashed and stored securely.
+
+**Why it's important**: Encryption ensures that data transmitted between clients and servers cannot be intercepted or altered by third parties.
+
