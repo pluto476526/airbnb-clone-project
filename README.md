@@ -124,3 +124,35 @@ Reviews are written by guests after completing a booking. A guest can write one 
 * A **Booking** has **one Payment**.
 * A **Review** links a **guest** to a **property** with feedback and rating.
 
+## Feature Breakdown
+
+This section outlines the core features of the Airbnb Clone backend, each designed to mirror real-world Airbnb functionality and provide a seamless user experience.
+
+### User Management
+
+Handles user registration, login, authentication, and profile updates. It ensures secure access and assigns roles (guest, host, or admin) that define the user’s capabilities within the platform.
+
+### Property Management
+
+Allows hosts to create, update, retrieve, and delete property listings. This feature supports key listing details such as price, availability, and location, enabling hosts to showcase their accommodations to potential guests.
+
+### Booking System
+
+Enables guests to reserve properties for specific dates, with validation to prevent double bookings. It manages the full lifecycle of a booking, including check-in and check-out tracking.
+
+### Payment Processing
+
+Handles secure transactions for confirmed bookings. It records payment status, amount, and method, ensuring traceability and integration with future features like refunds or payouts.
+
+### Review System
+
+Allows guests to leave feedback and ratings after their stay. Reviews help maintain quality standards and build trust between users, influencing booking decisions.
+
+### API Access (REST & GraphQL)
+
+Provides structured, programmatic access to all core resources via RESTful endpoints and flexible GraphQL queries. This dual interface supports both mobile and web client integration.
+
+### Performance Optimization
+
+Implements caching and database indexing to enhance speed and efficiency. These optimizations are crucial for handling high-traffic scenarios and ensuring a smooth user experience.
+
